@@ -12,3 +12,9 @@
 - **Swift (iOS):** `protoc` с плагином `swift-protobuf`; в proto указан `option swift_prefix` для имён типов.
 
 Импорт `google/protobuf/timestamp.proto` в calendar — стандартный, при генерации нужен путь к `google/protobuf` (обычно идёт с установкой protoc).
+
+## Репозиторий
+
+```
+git@github.com:nataiishaa/InterPrep-shared.git
+```
