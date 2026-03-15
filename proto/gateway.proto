@@ -35,6 +35,7 @@ service BackendGateway {
   rpc UploadFile(materials.UploadFileRequest) returns (materials.UploadFileResponse);
   rpc DownloadFile(materials.DownloadFileRequest) returns (materials.DownloadFileResponse);
   rpc ListFolder(materials.ListFolderRequest) returns (materials.ListFolderResponse);
+  rpc ListRecentFiles(materials.ListRecentFilesRequest) returns (materials.ListRecentFilesResponse);
   rpc CreateFolder(materials.CreateFolderRequest) returns (materials.CreateFolderResponse);
   rpc CreateLink(materials.CreateLinkRequest) returns (materials.CreateLinkResponse);
   rpc RenameNode(materials.RenameNodeRequest) returns (materials.RenameNodeResponse);
